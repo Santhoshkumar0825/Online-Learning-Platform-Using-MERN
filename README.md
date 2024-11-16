@@ -80,4 +80,6 @@ Develop a comprehensive online learning platform with three user types (Student,
 #### *Payment Integration:*
   - Stripe or PayPal or razorpay for secure and seamless payments
 
+#### *Naan Mudhalvan Project Report as pdf format*
 
+   [NM-Project-report.pdf](https://github.com/user-attachments/files/17784001/NM-Project-report.pdf)
