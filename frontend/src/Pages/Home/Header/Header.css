@@ -1,0 +1,40 @@
+.gapError{
+    height: 10vh;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.logo img{
+    height: 50px;
+}
+.logo h3{
+    color: #fff;
+    font-family: 'Gill Sans MT', sans-serif;
+    text-decoration: none;
+}
+.link-nav ul{
+    list-style: none;
+    color: #fff;
+    display: flex;
+    gap: 2rem;
+}
+
+button{
+    background-color: #4979D1;
+    border: none;
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.deactive{
+    color: #fff;
+    text-decoration: none;
+}
+.active{
+    color:#4979D1;
+    text-decoration: none;
+}

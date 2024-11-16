@@ -1,0 +1,234 @@
+button:hover{
+    cursor: pointer;
+}
+
+.underLine{
+    width: 10rem;
+    margin-left: 45%;
+}
+
+/* === top section === */
+.top{
+    /* background: linear-gradient(90.05deg, #008280 1.26%, rgba(31, 163, 161, 0.58) 99.96%); */
+    height: 60vh;
+    display: flex;
+    gap: 10px;
+    margin-top: 10vh;
+}
+.top .left{
+    padding: 25px;
+    color: #fff;
+    width: 50%;
+    padding-left: 4rem;
+}
+.top .left h1{
+    font-size: 35px;
+    text-align: left;
+}
+.top .right{
+    padding: 25px;
+}
+
+/* === features section === */
+.features {
+    background-color: #042439;
+}
+.features p{
+    color: #9433E0;
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, serif;
+    position: relative;
+    line-height: 2; 
+}
+
+.fets2{
+    height: 75%;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    /* align-items: end; */
+}
+.fet{
+    background-color: #0E3A59;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.fet img{
+    width: 70px;
+}
+.fet h4{
+    color: #9433E0;
+}
+.fet p{
+    color: #ffffff9f;
+    font-size: 10px;
+}
+
+/* === About === */
+
+.about h4{
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.about p{
+    color: #fff;
+    padding: 50px;
+    line-height: 2rem;
+}
+
+.content{
+    padding: 0 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Apply for all */
+    gap: 5rem;
+}
+
+/* === Subjects sectuon === */
+
+.courses{
+    margin: 5.5rem 0;
+}
+.courses p{
+    color: #042439;
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+}
+.subjects{
+    display: flex;
+    gap: 2.5rem;
+    margin: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.subject{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    background-color: #042439;
+    width: 150px;
+    height: 130px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subject p{
+    color: #fff;
+    font-size: medium;
+}
+
+.subject img{
+    width: 70px;
+}
+
+/* === Contact Us === */
+
+.contact-us{
+    margin-top: -5rem;
+}
+
+.contact h4{
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.1rem;
+}
+
+.contact .form-submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.form-submit input{
+    width: 300px;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #042439;
+    color: #fff;
+}
+
+.textArea{
+    height: 200px;
+    width: 300px;
+    resize: none;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #042439;
+    color: #fff;
+    line-height: 1.5rem;
+}
+
+.Submit-btn{
+    width: 333px;
+    background-color: #1021ba;
+    margin-bottom: 1rem;
+}
+
+/* === Footer === */
+.footer{
+    height: 230px;
+    background-color: #042439;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+.footer .leftPart{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #fff;
+}
+
+.footer .leftPart .title{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 1rem;
+}
+
+.rightPart .links{
+    width: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    color: #fff;
+}
+
+.rightPart .links .link{
+    display: flex;
+    gap: 0.7rem;
+    width: 7rem;
+}
+
+.rightPart .links .link :hover{
+    color: #9433E0;
+}
+
+.hr{
+    margin: 2rem 0;
+}
+
+.icons{
+    margin-left: 15rem;
+    display: flex;
+    gap: 1rem;
+}

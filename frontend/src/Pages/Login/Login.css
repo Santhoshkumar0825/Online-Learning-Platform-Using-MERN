@@ -1,0 +1,94 @@
+.main{
+  margin-top: 10vh;
+  margin-left: 10vh;
+  color:white;
+  font-family: sans-serif;
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.main::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.container{
+ min-height: auto; 
+ width:380px;
+ background-color: #0E3A59;
+ text-align: center;
+ border-radius: 15px;
+}
+
+.para1{
+  font-size: large;
+  margin-top: 10px;
+}
+
+.logo{
+ padding: 15px;
+}
+
+.para{
+   margin-top: 20px;
+   font-size: 16px;
+   letter-spacing: 1px;
+}
+.form{
+  margin-top:40px;
+}
+.input-0{
+    border:0;
+    outline: 0;
+    background: transparent;
+    border: 2px solid gray;
+    width: 70%;
+    padding-block: 17px ;
+    border-radius: 15px;
+    padding-left: 1rem;
+    color: white;
+}
+
+.input-0::placeholder{
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.input-2{
+  margin-top:20px;
+}
+
+.btns{
+ margin-top: 2rem;
+ display: flex;
+ justify-content: center;
+ gap: 80px;
+ margin-bottom: 1rem;
+}
+
+.btns-1{
+  background-color: #157776;
+  padding: 10px;
+  width: 200px;
+}
+
+.radio-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.signup-link{
+  margin-top: 20px;
+  font-size: small;
+}
+
+.signup-link p{
+  color: #fff; 
+}
+
+/* .signup-link .link{
+  color: green;
+  font-size: medium;
+} */
